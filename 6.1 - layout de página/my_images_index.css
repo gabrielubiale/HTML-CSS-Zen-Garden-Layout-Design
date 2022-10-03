@@ -1,0 +1,41 @@
+.flor_divi{ /*Configura a imagem entre os cards*/
+    margin: 1% 0% 0% 45%;
+}
+
+.primeiro_card_img img{ /*Configura a imagem ao logo do primeiro card*/
+    float: left;
+    margin: 1% 1% 0 0%;
+    border-radius: 15px;
+}
+
+.segundo_card img{
+    float: left;
+    margin: 1% 1% 1% 0%;
+    border-radius: 15px;
+}
+
+.terceira_linha{
+    float: left;
+}
+.terceira_linha_img1 img{
+    float: left;
+    margin: 1% 0 1% 0%;
+    border-radius: 15px;
+}
+.terceira_linha_img2 img {
+    float: left;
+    margin: 1% 0 1% 0;
+    border-radius: 15px;
+}
+
+footer{
+    background: #F2AB82;
+    margin: 1% 1% 1% 44%;
+    border-radius: 15px;
+    padding: 1%;
+    width: 200px;
+}
+footer img {
+    width: 60px;
+    height: 60px;
+}
