@@ -105,6 +105,9 @@ button a:hover{/*Reconfigura valores para a tag ancor dentro do botão quando o 
     float: left;
     border-radius: 15px;
 }
+.segunda_linha::after{
+    clear: both;
+}
 .segunda_linha p { /*Configura o texto dentro do card abaixo dos botões*/
     color: #ffffff;
     font-size: 17px;
@@ -123,6 +126,9 @@ button a:hover{/*Reconfigura valores para a tag ancor dentro do botão quando o 
     padding: 1%;
     border-radius: 15px;
 }
+.segundo_card_direita::after{
+    clear: both;
+}
 
 .card_terceira_linha { /*Configura o última card de texte*/
     background: #263D2B;
@@ -132,6 +138,10 @@ button a:hover{/*Reconfigura valores para a tag ancor dentro do botão quando o 
     margin: 1% 1% 1% 1%;
     border-radius: 15px;
 }
+.segundo_card_direita::after{
+    clear: both;
+}
+
 .card_terceira_linha p { /*Configura o texto do última card*/
     color: white;
     font-size: 17px;
@@ -139,4 +149,11 @@ button a:hover{/*Reconfigura valores para a tag ancor dentro do botão quando o 
 .card_terceira_linha h1 {/*Configura o título do última card*/
     color: white;
     font-size: 20px;
+}
+footer{
+    background: #F2AB82;
+    margin: 1% 1% 1% 44%;
+    border-radius: 15px;
+    padding: 1%;
+    width: 200px;
 }
