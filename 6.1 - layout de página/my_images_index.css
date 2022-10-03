@@ -1,41 +1,159 @@
-.flor_divi{ /*Configura a imagem entre os cards*/
-    margin: 1% 0% 0% 45%;
+.nunca_usado{/*Hexadecimal das cores usadas paleta de cores*/
+    background: #E6DAD2;
+    background: #F27D67;
+    background: #F2AB82;
+    background: #577A72;
+    background: #263D2B;
 }
 
-.primeiro_card_img img{ /*Configura a imagem ao logo do primeiro card*/
-    float: left;
-    margin: 1% 1% 0 0%;
-    border-radius: 15px;
+html{ /*Configurações gerais de toda a página*/
+    background:url(img/fundo_total.png);
+    background-size:cover;
+    font-family:'Courier New', Courier, monospace;
+    color:white;
 }
 
-.segundo_card img{
-    float: left;
-    margin: 1% 1% 1% 0%;
-    border-radius: 15px;
+a { /*Configuração todas as tag ancor na página*/
+    text-decoration: none;
+    color: #F27D67;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
 }
 
-.terceira_linha{
-    float: left;
-}
-.terceira_linha_img1 img{
-    float: left;
-    margin: 1% 0 1% 0%;
+.cabecalho { /*Imagem de background do Cabeçalho*/
+    background-image: url(img/fundo_cabecalho.png);
+    background-repeat: no-repeat;
     border-radius: 15px;
+    margin-bottom: 1%;
 }
-.terceira_linha_img2 img {
-    float: left;
+.cabecalho h1{ /*h1 do cabeçalho*/
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.cabecalho h2{/*h2 do cabeçalho*/
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+/*Configuração da primeira linha*/
+.primeiro_card_direita{ /*Estilização do card*/
+    background: #263D2B;
+    width: 70.5%;
+    height: 510px;
     margin: 1% 0 1% 0;
+    padding: 1%;
+    float: right;
     border-radius: 15px;
 }
+.primeiro_card_direita p{ /*Estilização do paragráfo dentro do "primeiro_card_direita*/
+    color: white;
+    font-size: 17px;
+}
+.primeiro_card_direita h1{ /*Estilização do titulo h3 dentro do "primeiro_card_direita*/
+    color: white;
+    font-size: 21px;
+}
 
+.backgroud_button{ /*Configura o background dos botões*/
+    background-color: #577A72;
+    border-radius: 15px;
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+button{ /*Configura os botões*/
+    background: #263D2B;
+    color:#F2AB82;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px; /*configura somente a palavra "by"*/
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+button a { /*Configura a tag ancor dentro do botão*/
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+}
+button a:hover{/*Reconfigura valores para a tag ancor dentro do botão quando o mouse passar por cima*/
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 23px;
+}
+.ancor_name{ /*Configura a tag ancor dentro do botão que apresenta o nome do autor de outro design*/
+    color: #ffffff;
+    font-size: 21px;
+}
+.ancor_name:hover{/*Reconfigura a tag ancor dentro do botão que apresenta o nome do autor de outro design qunado o mouse passar por cima*/
+    padding: 1%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.segunda_linha{/*Configura o card de texto a esquerda abaixo dos botões*/
+    background: #263D2B;
+    width: 55%;
+    height: 33%;
+    margin: 1% 1% 0 0;
+    padding: 1%;
+    float: left;
+    border-radius: 15px;
+}
+.segunda_linha::after{
+    clear: both;
+}
+.segunda_linha p { /*Configura o texto dentro do card abaixo dos botões*/
+    color: #ffffff;
+    font-size: 17px;
+}
+.segunda_linha h1 { /*Configura o título dentro do card abaixo dos botões*/
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.segundo_card_direita{ /*Configura o card de texto da direita abaixo dos botões a direita*/
+    background: #D6A949;
+    width: 15%;
+    height: 33%;
+    margin: 1% 0 0 0;
+    float: right;
+    padding: 1%;
+    border-radius: 15px;
+}
+.segundo_card_direita::after{
+    clear: both;
+}
+
+.card_terceira_linha { /*Configura o última card de texte*/
+    background: #263D2B;
+    width: 68.9%;
+    float: left;
+    padding: 1%;
+    margin: 1% 1% 1% 1%;
+    border-radius: 15px;
+}
+.segundo_card_direita::after{
+    clear: both;
+}
+
+.card_terceira_linha p { /*Configura o texto do última card*/
+    color: white;
+    font-size: 17px;
+}
+.card_terceira_linha h1 {/*Configura o título do última card*/
+    color: white;
+    font-size: 20px;
+}
 footer{
     background: #F2AB82;
     margin: 1% 1% 1% 44%;
     border-radius: 15px;
     padding: 1%;
     width: 200px;
-}
-footer img {
-    width: 60px;
-    height: 60px;
 }
